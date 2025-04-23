@@ -419,21 +419,29 @@
 
   .image__sunset {
     grid-column: 1 / 3;
+    min-block-size: 192px;
   }
 
   .image__ice-cream {
     grid-column: 3;
     grid-row: 1 / 3;
+    min-block-size: 442px;
+  }
+
+  .image__books {
+    min-block-size: 230px;
   }
 
   .image__tape {
     grid-column: 1;
     grid-row: 2 / 4;
+    min-block-size: 568px;
   }
 
   .image__street {
     grid-column: 2 / 4;
     grid-row: 3;
+    min-block-size: 318px;
   }
 
   .footer {
@@ -518,7 +526,6 @@
   .card_cause__layout {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-area: card_cause;
     gap: 2vw;
   }
 
@@ -530,6 +537,26 @@
     grid-template-areas:
       "title title title"
       "content content content";
+  }
+
+  .image__sunset {
+    min-block-size: 260px;
+  }
+
+  .image__ice-cream {
+    min-block-size: 595px;
+  }
+
+  .image__books {
+    min-block-size: 315px;
+  }
+
+  .image__tape {
+    min-block-size: 768px;
+  }
+
+  .image__street {
+    min-block-size: 433px;
   }
 
   .footer {
